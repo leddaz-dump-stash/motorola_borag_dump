@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datas version="1">
+    <!--config_data: 1 install    lnv_config: 1 ,In lenovo version, the app will be installed for this carrier. Uninstall for other carrier-->
+    <matchcarrier  carrier="reteu;retgb;timit;vfeu;windit;oraeu" apk_path="/product/priv-app/SearchSelector" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.google.android.apps.setupwizard.searchselector"/>
+    <!--config_data: 1 install-->
+    <matchcarrier  carrier="amxmx" apk_path="/system/priv-app/TelcelContainer" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.telcel.contenedor"/>
+    <matchcarrier  carrier="amxar;amxcl;amxco;amxpe;amxla" apk_path="/system/priv-app/ClaroContainer" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.claroColombia.contenedor"/>
+    <matchcarrier  carrier="openmx;altmx;tefmx;amxmx;attmx" apk_path="/product/priv-app/PayJoyAccess" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.payjoy.access"/>
+    <matchcarrier  carrier="amxbr" apk_path="/system/priv-app/stub-ClaroContainer" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.claroColombia.contenedor"/>
+    <matchcarrier  carrier="niibr;retbr;timbr;oibr;openbr;tefbr;tefmx;tefco;tigco;tefpe;niipe;attmx;amxmx;openmx;amxco;retar;retcl;retla" apk_path="/system/priv-app/BRAppsBox" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.motorola.brapps"/>
+    <!--<matchcarrier  carrier="timit" apk_path="/system/priv-app/Booking" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.booking"/>-->
+    <matchcarrier  carrier="timit;attmx;windit;vfau" apk_path="/system/priv-app/AmazonMDIP" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.amazon.appmanager"/>
+    <matchcarrier  carrier="timit" apk_path="/system/priv-app/TimDevice" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.satispay.promotion"/>
+    <matchcarrier  carrier="o2gb" apk_path="/system/priv-app/OP15Entitlement" apk_property="0" config_data="1" lnv_config="-1" apk_package="com.mediatek.entitlement.o2"/>
+    <matchcarrier  carrier="retapac;vfau;optus" apk_path="/system/system_ext/priv-app/DuraSpeed" apk_property="0" config_data="1" lnv_config="1" apk_package="com.mediatek.duraspeed"/>
+    <!--config_data:-1 not install   lnv_config: -1 ,In lenovo version, the app will be uninstall for this carrier. Uninstall for other carrier-->
+    <matchcarrier  carrier="windit;timit" apk_path="/system/app/OntimFMRadio" apk_property="0" config_data="-1" lnv_config="-1" apk_package="com.ontim.fmradio"/>
+    <matchcarrier  carrier="bwaca;tracfone;sprint" apk_path="/system/priv-app/facebook-services" apk_property="0" config_data="-1" lnv_config="1" apk_package="com.facebook.services"/>
+    <matchcarrier  carrier="none" apk_path="/system/app/SettingsOverlay" apk_property="0" config_data="-1" lnv_config="-1"/>
+    <!-- for motorola aura oobe service -->
+    <matchcarrier  carrier="retla;retar;retbr;retcl;openmx;retpe;reteu;retgb;retmea;retru;retca;retus;retapac;retid;retin;retjp;retkr;retsea;retjio;teleu"
+            apk_path="/system/priv-app/AuraOOBE"
+            apk_property="0"
+            config_data="1"
+            lnv_config="-1"
+            apk_package="com.aura.oobe.motorola" />
+</Datas>

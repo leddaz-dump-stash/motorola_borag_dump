@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares the signature|privileged permissions
+which should be granted to privileged applications that come with the platform.
+-->
+<permissions>
+   <privapp-permissions package="com.google.android.apps.carrier.carrierwifi">
+       <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+       <permission name="android.permission.NETWORK_CARRIER_PROVISIONING"/>
+   </privapp-permissions>
+</permissions>

@@ -1,0 +1,8 @@
+# ontim: add properies file for aee db
+service add_aee_prop /vendor/bin/add_aee_prop.sh
+   group root readproc system debuggerd log radio
+   oneshot
+   disabled
+
+on property:vendor.debug.mtk.aeev.db=*
+   start add_aee_prop

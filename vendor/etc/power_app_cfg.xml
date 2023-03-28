@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The source code provided herein is for optimizing power and performance of gaming software
+and certain applications (e.g. Sina Weibo, QQ) only and should not be used and/or included in
+any software that is unrelated to enhancing end-user experience. -->
+<WHITELIST>
+    <Package name="cn.wsds.gamemaster">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="2"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.sgame">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.garena.game.codm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_GPU_FREQ_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ontim.camera2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.gm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="3000"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.activision.callofduty.shooter">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_GPU_FREQ_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.king.farmheroessaga">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_GPU_FREQ_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.pubgmhd">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_GPU_FREQ_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.supercell.clashofclans">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_GPU_FREQ_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.supercell.clashofclans">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_GPU_FREQ_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.mojang.minecraftpe">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_GPU_FREQ_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="my.beautyCamera">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.mobileqq">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="air.tv.douyu.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.meitu.makeup">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.netease.ko">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.netease.hyxd">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.maimiao.live.tv">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.ak">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ak.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.cf">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.cldts">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.netease.zjz">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.clfz">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.pubgm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.vectorunit.red">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_FPS_FSTB_FPS_LOWER" param1="60"></data>
+                <data cmd="PERF_RES_FPS_FSTB_FPS_UPPER" param1="60"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.android.settings">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.dialer">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="600"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.messaging">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.myos.camera">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.photos">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="600"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.android.vending">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.contacts">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.whatsapp">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.twitter.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.youtube">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.youtube.music">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.gm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="android.view.cts">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="5"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.ig">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_GPU_FREQ_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_DRAM_OPP_MIN" Param1="0"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" Param1="2301000"></data>
+                <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" Param1="1800000"></data>
+            </FPS>
+        </Activity>
+    </Package>
+</WHITELIST>

@@ -1,0 +1,7 @@
+system/system/system_ext/apex/com.android.vndk.v30.apex
+system/system/system_ext/priv-app/MtkSettings/MtkSettings.apk
+product/app/Gmail2/oat/arm64/Gmail2.odex
+product/app/WebViewGoogle/WebViewGoogle.apk
+product/priv-app/GmsCore/GmsCore.apk
+product/priv-app/Messages/Messages.apk
+product/priv-app/Velvet/Velvet.apk

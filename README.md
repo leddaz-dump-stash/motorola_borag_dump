@@ -1,0 +1,14 @@
+# borag-user 12 SOVS32.121-21-3 f5f52 release-keys
+- manufacturer: motorola
+- platform: mt6765
+- codename: borag
+- flavor: borag-user
+- release: 12
+- id: SOVS32.121-21-3
+- incremental: f5f52
+- tags: release-keys
+- fingerprint: motorola/borag_retail/borag:12/SOVS32.121-21-3/f5f52:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: borag-user-12-SOVS32.121-21-3-f5f52-release-keys
+- repo: motorola_borag_dump

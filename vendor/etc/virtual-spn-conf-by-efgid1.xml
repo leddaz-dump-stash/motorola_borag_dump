@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByEfGid1 version="1">
+<virtualSpnOverride mccmncgid1="2343040" name="Virgin"/>
+<virtualSpnOverride mccmncgid1="234302800000000000000" name="Virgin"/>
+<virtualSpnOverride mccmncgid1="234382800000000000000" name="Virgin"/>
+<virtualSpnOverride mccmncgid1="2343028000000" name="Virgin"/>
+<virtualSpnOverride mccmncgid1="2343828000000" name="Virgin"/>
+<virtualSpnOverride mccmncgid1="234200305" name="ID Mobile"/>
+<virtualSpnOverride mccmncgid1="234200305FFFF" name="ID Mobile"/>
+<virtualSpnOverride mccmncgid1="5200001ff" name="TRUE-H"/>
+<virtualSpnOverride mccmncgid1="23430C3" name="BT"/>
+<virtualSpnOverride mccmncgid1="23430B3" name="BT"/>
+<virtualSpnOverride mccmncgid1="23415C1" name="Talkmobile"/>
+<virtualSpnOverride mccmncgid1="23420030B" name="Gamma"/>
+<virtualSpnOverride mccmncgid1="23420030BFFFF" name="Gamma"/>
+</virtualSpnOverridesByEfGid1>

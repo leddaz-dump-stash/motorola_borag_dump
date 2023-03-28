@@ -1,0 +1,7 @@
+on boot
+     setprop ro.vendor.md_apps.support 1
+     setprop ro.vendor.md_apps.load_type user
+     setprop ro.vendor.md_apps.load_verno "MOLY.LR12A.R3.MP.V222.P17"
+     setprop ro.vendor.md_apps.load_gencfg "GEN93_USER"
+     setprop ro.vendor.md_apps.load_date "2022/12/30 13:11:45 GMT +08:00"
+     setprop ro.vendor.radio.imei.sv 08

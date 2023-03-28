@@ -1,0 +1,4 @@
+user=_app seinfo=platform name=com.trustonic.tuiservice domain=mobicore_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.mediatek.emcamera domain=emcamera_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.mediatek.sensorhub.ui domain=sensorhub_app type=app_data_file levelFrom=user
+user=system seinfo=platform name=com.ontim.cit domain=system_app type=app_data_file levelFrom=all

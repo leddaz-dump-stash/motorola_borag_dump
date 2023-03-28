@@ -1,0 +1,14 @@
+## add by yejz 20190817 for EKBALI-616 -- begin
+service fingerinfo /vendor/bin/fingerinfo
+    user root
+    group root system shell
+    class core
+	oneshot
+
+on property:vendor.debug.vtest=1
+    setprop ro.vendor.build.fingerprint ${vendor.debug.fingerinfo}
+    setprop ro.bootimage.build.fingerprint ${vendor.debug.fingerinfo}
+    setprop ro.odm.build.fingerprint ${vendor.debug.fingerinfo}
+    setprop ro.vendor.vtest 1
+
+## add by yejz 20190817 for EKBALI-616 -- end

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <PlatformWhitelist>
+        <App1>com.tencent.mm</App1>
+        <App2>com.whatsapp</App2>
+        <App3>com.facebook.katana</App3>
+        <App4>com.instagram.android</App4>
+        <App5>com.tencent.mobileqq</App5>
+        <App6>com.google.android.gm</App6>
+        <App7>com.microsoft.office.outlook</App7>
+        <App8>com.facebook.orca</App8>
+        <App9>com.truecaller</App9>
+    </PlatformWhitelist>
+ </configuration>

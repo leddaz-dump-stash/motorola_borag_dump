@@ -1,0 +1,8 @@
+PlatformVendor:MTK
+LogToolPackage:com.debug.loggerui
+LogToolMainActivity:com.debug.loggerui.MainActivity
+LogFolderPath:/data/debuglogger/
+UTFolderName:utlog
+NeedClearOriginalLog:true
+UseCommand:true
+

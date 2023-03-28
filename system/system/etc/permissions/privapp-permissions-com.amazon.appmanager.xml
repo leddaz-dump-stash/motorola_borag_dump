@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.amazon.appmanager">
+        <permission name="com.amazon.maft.preload.GET_PRELOAD_ID"/>
+        <permission name="com.amazon.appmanager.preload.permission.READ_PRELOAD_APP_INFO_PROVIDER"/>
+    </privapp-permissions>
+</permissions>

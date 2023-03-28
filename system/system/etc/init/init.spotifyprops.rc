@@ -1,0 +1,7 @@
+# Setting ro.csc.* props for Spotify PAI app on every boot cycle and FDR.
+# The ro.csc.* props are set by reading the values from persist.* props only when the props are ready.
+on property:persist.app.spotify.music.partnerid=*
+  setprop ro.csc.spotify.music.partnerid ${persist.app.spotify.music.partnerid}
+
+on property:persist.app.spotify.music.referrerid=*
+  setprop ro.csc.spotify.music.referrerid ${persist.app.spotify.music.referrerid}

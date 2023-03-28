@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.ontim.cit">
+        <!-- Factory reset data -->
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <!-- shutdown device  -->
+        <permission name="android.permission.SHUTDOWN"/>
+        <!-- wifi gps bluetooth  -->
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <!-- sim card test  -->
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <!-- fm test -->
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.ACCESS_BROADCAST_RADIO"/>
+    </privapp-permissions>
+</permissions>

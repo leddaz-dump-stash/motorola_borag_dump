@@ -1,0 +1,12 @@
+
+service ontimBugreport system_ext/bin/ut_bugreport.sh
+    class main
+    user shell
+    group system root shell log sdcard_rw
+    disabled
+    oneshot
+    seclabel u:r:shell:s0
+
+on property:vendor.ontim.ut_bugreport.folder=*
+    start ontimBugreport
+

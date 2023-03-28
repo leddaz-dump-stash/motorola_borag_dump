@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.google.android.carrier">
+        <!-- Required by CarrierConfigManager#notifyConfigChangedForSubId
+             to update carrier configs.
+         -->
+        <permission name="android.permission.MODIFY_PHONE_STATE" />
+        <!-- Required to read SIM info including IMSI
+             for carrier identification.
+         -->
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <!-- Required to update APNs. -->
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <!-- Required by VendorConfigProvider which uses singleUser=true,
+             since the app only runs as the system user.
+         -->
+        <permission name="android.permission.INTERACT_ACROSS_USERS" />
+    </privapp-permissions>
+</permissions>

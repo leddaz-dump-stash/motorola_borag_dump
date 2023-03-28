@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Morpho HDSR (CPU) Parameters Configuration -->
+<!-- Copyright(c) 2020 Morpho China,Inc.  -->
+
+<hdsr>
+	<version   type="string" length="1">cpu_20220623</version>
+    <camera_id type="int"    length="1">0</camera_id>
+	
+    <params>
+		<zoom_ratio value="2">
+			<iso value="100">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">50.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">50.0</uv_nr_level>
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">1</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">2</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">1</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">3000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="299">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">50.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">50.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">1</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">2</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">1</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">3000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="899">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">70.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">50.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">1</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">2</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">1.5</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">4000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="1299">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">50.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">70.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">2</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">5000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="2000">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">70.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">70.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">2</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">5000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="3200">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">70.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">70.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">2</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">5000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="4800">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">100.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">100.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">2</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">6000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="6400">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">100.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">100.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">3</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">6000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+		</zoom_ratio>
+		<zoom_ratio value="4">
+			<iso value="100">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">50.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">50.0</uv_nr_level>
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">1</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">2</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">1</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">3000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="299">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">50.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">50.0</uv_nr_level>
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">1</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">2</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">1</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">3000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="800">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">70.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">50.0</uv_nr_level>
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">1</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">2</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">1.5</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">4000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="1299">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">50.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">70.0</uv_nr_level>
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">2</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">5000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>	
+			</iso>
+			<iso value="2000">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">100.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">70.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">2</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">5000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="3200">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">100.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">70.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">2</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">5000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="4800">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">50.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">50.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">1</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">2</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">0.6</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">6000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+			<iso value="6400">
+				<super_resolution_array>
+					<super_resolution id="0">
+						<deghost_table_weight		type="double" rang="[0.0,5.0]"    default="1.0"   length="1">1.0</deghost_table_weight>
+						<input_blur     		  	type="double" rang="[0.0,10.0]"   default="0.0"   length="1">0</input_blur>
+						<y_nr_level     		  	type="double" rang="[0.0,100.0]"  default="1.0"   length="1">100.0</y_nr_level>
+						<uv_nr_level     		  	type="double" rang="[0.0,100.0]"  default="4.0"   length="1">100.0</uv_nr_level>;
+						<deghost_nr_level			type="double" rang="[1,20]"       default="6.0"   length="1">6.0</deghost_nr_level>
+						<y_nr_times     		  	type="int"    rang="[1,3]"        default="1"     length="1">3</y_nr_times>
+						<uv_nr_times     		  	type="int"    rang="[1,3]"        default="2"     length="1">3</uv_nr_times>
+						<unsharp_sigma  		  	type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.2</unsharp_sigma>
+						<unsharp_sigma2 		  	type="double" rang="[0.0,10.0]"   default="0.6"   length="1">5</unsharp_sigma2>
+						<do_unsharp     		  	type="int"    rang="[1,~]"        default="1800"  length="1">6000</do_unsharp>
+					</super_resolution>	
+				</super_resolution_array>
+			</iso>
+		</zoom_ratio>
+		
+    </params>
+</hdsr>

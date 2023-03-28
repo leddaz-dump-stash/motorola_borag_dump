@@ -1,0 +1,5 @@
+<exceptions>
+    <exception package="com.aura.oobe.motorola">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="true" whitelisted="true" />
+    </exception>
+</exceptions>

@@ -1,0 +1,7 @@
+on boot
+    mkdir /persist
+
+on post-fs
+    chown system system /persist
+    chmod 0771 /persist
+

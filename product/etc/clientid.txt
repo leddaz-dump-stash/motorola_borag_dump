@@ -1,0 +1,12 @@
+#format should be:
+# carrier:   clientidbase,                clientidam,                                      clientidms,                                     clientidvs,                                     clientidcr
+amxbr:       android-motorola,            android-americamovil-{country},                  android-americamovil-{country}-revc,            android-americamovil-{country}-revc,
+amxmx:       android-motorola,            android-americamovil-{country},                  android-americamovil-{country}-revc,            android-americamovil-{country}-revc,
+openmx:      android-motorola,            android-americamovil-{country},                  android-americamovil-{country}-revc,            android-americamovil-{country}-revc,
+attmx:       android-motorola,            ,                                                android-attmexico-mx-rvc3,                      android-attmexico-mx-rvc3,
+windit:      android-motorola,            ,                                                android-h3g-{country}-rvc3,                     android-h3g-{country}-rvc3,                     android-motorola
+oraeu:       android-motorola,            android-orange-{country},                        android-orange-{country}-rvc3,                  android-orange-{country}-rvc3,                  android-motorola
+timbr:       android-motorola,            ,                                                android-tim-br-revc,                            android-tim-br-revc,
+timit:       android-motorola,            ,                                                android-tim-it-rvc3,                            android-tim-it-rvc3,                            android-motorola
+vfeu:        android-motorola,            android-vf-{country},                            android-vf-{country}-rvc3,                      android-vf-{country}-rvc3,                      android-motorola
+

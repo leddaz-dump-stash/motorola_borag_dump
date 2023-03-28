@@ -1,0 +1,42 @@
+#
+# Copyright (c) 2017 Fingerprint Cards AB <tech@fingerprints.com>
+#
+# All rights are reserved.
+# Proprietary and confidential.
+# Unauthorized copying of this file, via any medium is strictly prohibited.
+# Any use is subject to an appropriate license granted by Fingerprint Cards AB.
+#
+
+# Swipe Right
+#key 103   DPAD_RIGHT
+
+# Swipe Left
+#key 108   DPAD_LEFT
+
+# Swipe Up
+#key 106   DPAD_UP
+
+# Swipe Down
+#key 105   DPAD_DOWN
+
+# Single Tap
+#key 304   BUTTON_A
+
+# Hold Press
+#key 305   BUTTON_B
+
+# Double Tap
+#key 306   BUTTON_C
+
+# Sense Touch Press
+#key 307   BUTTON_X
+
+# Sense Touch Authentication Press
+#key 308   BUTTON_Y
+
+# Sense Touch Force Value
+#axis 2 LTRIGGER
+
+# power touch
+key 750   POWER_TOUCH
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <hidden-api-whitelisted-app package="com.motorola.ccc.devicemanagement" />
+    <allow-in-power-save package="com.motorola.ccc.devicemanagement" />
+    <allow-in-data-usage-save package="com.motorola.ccc.devicemanagement" />
+</config>

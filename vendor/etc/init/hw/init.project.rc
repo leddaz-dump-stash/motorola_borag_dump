@@ -1,0 +1,163 @@
+# MTK project .rc configure
+
+import init.mt6765.usb.rc
+
+on fs
+    mkdir /elabel 775 system system
+    mount ext4 /dev/block/bootdevice/by-name/elabel /elabel noatime nosuid nodev barrier=1
+    restorecon_recursive /elabel
+
+on early-init
+    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules helloworld.ko mt6357-accdet.ko trace_mmstat.ko
+
+on init
+    mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw
+    mkdir /storage/usbotg 0700 root root
+
+on post-fs-data
+
+#Camera
+    chmod 0660 /dev/MAINAF
+    chown system camera /dev/MAINAF
+
+    chmod 0660 /dev/MAINAF2
+    chown system camera /dev/MAINAF2
+
+    chmod 0660 /dev/SUBAF
+    chown system camera /dev/SUBAF
+
+    chmod 0660 /dev/GAF001AF
+    chown system camera /dev/GAF001AF
+
+    chmod 0660 /dev/DW9714AF
+    chown system camera /dev/DW9714AF
+
+    chmod 0660 /dev/LC898212AF
+    chown system camera /dev/LC898212AF
+
+    chmod 0660 /dev/BU64745GWZAF
+    chown system camera /dev/BU64745GWZAF
+
+#Factory
+    chown root system /dev/block/platform/bootdevice/by-name/proinfo
+    chmod 0660 /dev/block/platform/bootdevice/by-name/proinfo
+
+#SMB
+    chown system system /proc/smb/ScreenComm
+    chmod 0660 /proc/smb/ScreenComm
+
+    chmod 0660 /dev/spm
+    chown system system /dev/spm
+
+
+on init
+    # Refer to http://source.android.com/devices/tech/storage/index.html
+    # It said, "Starting in Android 4.4, multiple external storage devices are surfaced to developers through
+    #           Context.getExternalFilesDirs(), Context.getExternalCacheDirs(), and Context.getObbDirs().
+    #           External storage devices surfaced through these APIs must be a semi-permanent part of the device (such as an SD card slot in a battery compartment).
+    #           Developers expect data stored in these locations to be available over long periods of time."
+    # Therefore, if the target doesn't support sd hot-plugging (Ex: the SD card slot in a battery compartment), we need to export SECONDARY_STORAGE in 'boot' section
+    #
+    # export SECONDARY_STORAGE /storage/sdcard1
+
+service fuse_usbotg /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_rw/usbotg /storage/usbotg
+    class late_start
+    disabled
+
+service spm_script /vendor/bin/spm_loader
+    user system
+    group system
+    class core
+    oneshot
+
+# start remosaic_daemon
+on property:sys.boot_completed=1
+    start remosaic_daemon
+
+service remosaic_daemon /vendor/bin/remosaic_daemon
+    class core
+    user system
+    group system
+    oneshot
+    disabled
+
+on boot
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/clk_enable
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/compatible_all
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/driver
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/hw_reset
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/irq
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/modalias
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/power
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/of_node
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/statistics
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/uevent
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/subsystem
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/wakeup_enable
+    chown system system /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/hwinfo
+
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/clk_enable
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/compatible_all
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/driver
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/hw_reset
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/irq
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/modalias
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/power
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/of_node
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/statistics
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/uevent
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/subsystem
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/wakeup_enable
+    chmod 0777 /sys/devices/platform/11010000.spi/spi_master/spi1/spi1.0/hwinfo
+
+on boot
+    chmod 0777 /dev/esfp0
+    chown system system /dev/esfp0
+    chmod 0660 /sys/devices/platform/egis_input/navigation_event
+    chmod 0660 /sys/devices/platform/egis_input/navigation_enable
+    chown system system /sys/devices/platform/egis_input/navigation_enable
+    chown system system /sys/devices/platform/egis_input/navigation_event
+    write /dev/egis_spi_test 0
+    write /dev/egis_touch_test 0
+    chmod 0666 /dev/egis_spi_test
+    chmod 0666 /dev/egis_touch_test
+    chown system system /dev/egis_spi_test
+    chown system system /dev/egis_touch_test
+# add for HBM mode
+    chmod 666 /sys/hwinfo/hbm
+
+# Control the sound of the upper and lower speakers
+    chmod 660 /sys/bus/i2c/drivers/aw87xxx_pa/0-0058/profile
+    chmod 660 /sys/bus/i2c/drivers/aw87xxx_pa/0-0059/profile
+
+# start mmstat
+on property:sys.boot_completed=1
+    mkdir /sys/kernel/tracing/instances/mmstat 711
+    write /sys/kernel/tracing/instances/mmstat/tracing_on 0
+    write /sys/kernel/tracing/instances/mmstat/buffer_size_kb 16
+    write /sys/kernel/tracing/instances/mmstat/events/mmstat/enable 1
+    write /sys/kernel/tracing/instances/mmstat/tracing_on 1
+
+
+on property:sys.led.red=on
+    write /sys/class/leds/white/brightness 255
+on property:sys.led.red=off
+    write /sys/class/leds/white/brightness 0
+
+#APP_SMT
+on property:sys.boot_completed=1
+    start cqa_copy_script
+
+# ontim add for copy cqa test files to /sdcard/
+service cqa_copy_script /system/bin/sh /system/bin/CQACopy.sh
+    user root
+    group root
+    class core
+    seclabel u:r:cqa_copy:s0
+    oneshot
+
+on property:vendor.sys.cqa_copy=1
+    start cqa_copy_script
+
+on property:persist.sys.locale=*
+    setprop persist.vendor.locale ${persist.sys.locale}

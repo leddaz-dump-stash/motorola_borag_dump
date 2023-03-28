@@ -1,0 +1,44 @@
+<!--
+    Input:
+        egist_framework_compatibility_matrix.xml
+        framework_compatibility_matrix.xml
+        dax_framework_compatibility_matrix.xml
+-->
+<compatibility-matrix version="4.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>com.fingerprints.extension</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFingerprintNavigation</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintSensorTest</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.cnce.hardware.facsvc</name>
+        <version>2.0</version>
+        <interface>
+            <name>IFacSvc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.egistecbix.hardware.fingerprint</name>
+        <version>4.0</version>
+        <interface>
+            <name>IBiometricsFingerprintBix</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

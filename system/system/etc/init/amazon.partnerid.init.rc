@@ -1,0 +1,11 @@
+on property:persist.sys.vendor.carrier=timit
+    setprop ro.csc.amazon.partnerid timit
+
+on property:persist.sys.vendor.carrier=windit
+    setprop ro.csc.amazon.partnerid 3it
+
+on property:persist.sys.vendor.carrier=attmx
+    setprop ro.csc.amazon.partnerid attmx
+
+on property:persist.sys.vendor.carrier=vfau
+    setprop ro.csc.amazon.partnerid vfau

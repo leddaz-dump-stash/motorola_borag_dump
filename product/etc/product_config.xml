@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datas version="1">
+    <!--homelayout -->
+    <matchcarrier  carrier="amxmx" apk_path="/product/motoApp/app/homelayout/Launcher3Overlay_amxmx" apk_property="0" config_data="" lnv_config="-1"/>
+    <matchcarrier  carrier="amxar;amxbr;amxpe;amxcl;amxco;amxla" apk_path="/product/motoApp/app/homelayout/Launcher3Overlay_amx_claro" apk_property="0" config_data="" lnv_config="-1"/>
+    <matchcarrier  carrier="retru" apk_path="/product/motoApp/app/homelayout/Launcher3Overlay_retru" apk_property="0" config_data="1" lnv_config="-1"/>
+    <matchcarrier  carrier="teleu;retmea" apk_path="/product/motoApp/app/homelayout/Launcher3Overlay_lenovo" apk_property="0" config_data="-1" lnv_config="1"/>
+    <matchcarrier  carrier="retru" apk_path="/product/motoApp/app/homelayout/Launcher3Overlay_lenovo_retru" apk_property="0" config_data="-1" lnv_config="1"/>
+    <!-- homelayout end -->
+    <matchcarrier  carrier="amxpe;amxco;amxmx;amxla;amxcl" apk_path="/product/motoApp/priv-app/SysDLL" apk_property="1" config_data="" lnv_config="-1" apk_package="co.sitic.pp"/>
+    <matchcarrier  carrier="amxbr;amxcl;amxco;amxpe;amxla;amxmx" apk_path="/product/preloadApp/instagram" apk_property="-1" config_data="1" lnv_config="-1"/>
+    <matchcarrier  carrier="openmx;amxmx;attmx;tefmx;altmx;amxar;retar;amxcl;retcl;opencl;amxpe;openpe;openla;retla;tigca" apk_path="/product/motoApp/priv-app/FrameworksMotoTimeZoneData" apk_property="1" config_data="" lnv_config="-1"/>
+    <matchcarrier  carrier="openmx;amxmx;attmx;tefmx;altmx;amxar;retar;amxcl;retcl;opencl;amxpe;openpe;openla;retla;tigca" apk_path="/product/motoApp/priv-app/MotoTimeZoneDataPrebuilt" apk_property="1" config_data="" lnv_config="-1"/>
+    <matchcarrier  carrier="openmx;amxmx;attmx;tefmx;altmx;amxar;retar;amxcl;retcl;opencl;amxpe;openpe;openla;retla;tigca" apk_path="/product/motoApp/priv-app/TimeZoneUpdater" apk_property="1" config_data="" lnv_config="-1"/>
+    <matchcarrier  carrier="openmx;amxmx;attmx;tefmx;altmx;amxar;retar;amxcl;retcl;opencl;amxpe;openpe;openla;retla;tigca;amxco;amxla;retbr;timbr;amxbr;tefbr" apk_path="/product/motoApp/priv-app/MotoTimeZoneDataStub" apk_property="1" config_data="" lnv_config="-1"/>
+</Datas>

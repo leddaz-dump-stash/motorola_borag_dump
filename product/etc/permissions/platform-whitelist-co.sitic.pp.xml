@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <allow-in-power-save package="co.sitic.pp" />
+    <allow-in-data-usage-save package="co.sitic.pp" />
+    <system-user-whitelisted-app package="co.sitic.pp" />
+</permissions>
